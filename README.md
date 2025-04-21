@@ -286,7 +286,7 @@ tgmusicbot v1.1.8
 
 Contributions are welcome! If you'd like to contribute:
 
-1. **Fork** the [repository](https://github.com/Vhal999Vhal999/ravinewbot).
+1. **Fork** the [repository](https://github.com/AshokShau/TgMusicBot).
 2. **Make meaningful changes** – improve features, fix bugs, or optimize performance.
 3. **Submit a pull request** with a clear explanation of your changes.
 
