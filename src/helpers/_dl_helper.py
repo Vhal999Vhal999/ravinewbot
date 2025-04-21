@@ -80,6 +80,8 @@ class YouTubeDownload:
             "--retries", "2",
             "--continue",
             "--no-part",
+            "--downloader", "aria2c",
+            "--downloader-args", "aria2c:-x 16 -s 16 -k 1M"
             "-o", output_template,
         ]
 

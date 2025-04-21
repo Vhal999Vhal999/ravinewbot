@@ -174,7 +174,7 @@ tgmusicbot v1.1.8
 3.Install required packages and [install uv](https://docs.astral.sh/uv/getting-started/installation/):
 
    ```sh
-   sudo apt-get install git python3-pip ffmpeg -y && pip3 install uv
+   sudo apt-get install git python3-pip aria2 ffmpeg -y && pip3 install uv
    ```
 
 4.Clone the repository:
