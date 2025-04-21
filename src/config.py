@@ -43,7 +43,7 @@ TOKEN: Optional[str] = getenv("TOKEN")
 SESSION_STRINGS: list[str] = [getenv(f"STRING{i}", None) for i in range(1, 11)]
 SESSION_STRINGS = [s for s in SESSION_STRINGS if s]
 
-OWNER_ID: int = get_env_int("OWNER_ID", 5938660179)
+OWNER_ID: int = get_env_int("OWNER_ID", )
 LOGGER_ID: int = get_env_int("LOGGER_ID", 0)
 MONGO_URI: Optional[str] = getenv("MONGO_URI")
 API_URL: Optional[str] = getenv("API_URL")
@@ -52,8 +52,8 @@ PROXY_URL: Optional[str] = getenv("PROXY_URL")
 
 DEFAULT_SERVICE: str = getenv("DEFAULT_SERVICE", "youtube").lower()
 DOWNLOADS_DIR: str = getenv("DOWNLOADS_DIR", "database/music")
-SUPPORT_GROUP: str = getenv("SUPPORT_GROUP", "https://t.me/GuardxSupport")
-SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/FallenProjects")
+SUPPORT_GROUP: str = getenv("SUPPORT_GROUP", "https://t.me/sad_love_hindi_jockes_shayari")
+SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/bestchattinggroupp")
 
 IGNORE_BACKGROUND_UPDATES: bool = (
         getenv("IGNORE_BACKGROUND_UPDATES", "True").lower() == "true"
